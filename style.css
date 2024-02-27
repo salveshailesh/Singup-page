@@ -1,0 +1,98 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: black;
+	padding: 20px;
+  }
+  div{
+    width: 75%;
+    margin: auto;
+    margin-top: 50px;
+  }
+  form {
+	padding: 20px;
+	box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+	background-color: black;
+	color: white;
+  }
+  h1 {
+	color: #FFFFFF;
+	text-align: left;
+	margin-bottom: 30px;
+  }
+  label {
+	display: block;
+	margin-top: 10px;
+	font-size: 14px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="date"]{
+	width: 100%;
+	padding: 10px;
+	border-radius: 0;
+	border-bottom: 1px solid #ccc;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	margin-top: 5px;
+	font-size: 16px;
+	color: white;
+	background-color: black;
+	outline: none;
+  }
+ 
+  #dob{
+	color: #737575;
+	
+ }
+  input[type="radio"] {
+	margin-right: 10px;
+	
+  }
+  input[type="submit"] {
+	width: 130px;
+	height: 38px;
+	background-color: #FFFFFF;
+	color: black;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	margin-top: 20px;
+	font-size: 16px;
+  }
+  input[type="submit"]:hover {
+	background-color: #335577;
+
+  }
+
+  label[for="employee"],
+  label[for="student"] {
+	display: inline-block;
+	margin-left: -12px;
+	margin-top: 10px;
+	font-size: 14px;
+	color: #737575;
+  }
+  input[type="radio"] {
+	margin-top: -1px;
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: middle;
+	accent-color: black;
+  }
+  label[for="terms"] {  
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: -8px;
+	font-size: 14px;
+	color: #737575;
+  }
+  input[type="checkbox"] {
+	margin-top: -1px;
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: middle;
+	accent-color: black;
+  }
